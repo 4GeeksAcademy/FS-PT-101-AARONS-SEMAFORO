@@ -9,3 +9,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.rectangulo-vertical {
+    width: 60px;
+    height: 150px;
+    background-color: black;
+}
+
+.cuerpo-rectangulo {
+    width: 290px;
+    height: 500px;
+    background-color: #df9809;
+    border: 3px solid black;
+}
+
+.circulo-rojo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circulo-verde {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.circulo-amarillo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0);
+}
+
+.shadow-light {
+    -webkit-box-shadow: -13px 23px 137px 85px rgba(255, 255, 59, 1);
+    -moz-box-shadow: -13px 23px 137px 85px rgba(255, 255, 59, 1);
+    box-shadow: -13px 23px 137px 85px rgba(255, 255, 59, 1);
+}
